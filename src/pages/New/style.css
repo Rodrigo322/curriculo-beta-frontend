@@ -1,0 +1,23 @@
+label#img {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label#img input {
+    display: none;
+  }
+  
+  label#img.has-img {
+    border: 0;
+  }
+  
+  label#img.has-img img {
+    display: none;
+  }
